@@ -1,0 +1,7 @@
+.container-bg {
+  background-image: url("../assets/dancing-smoke2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
