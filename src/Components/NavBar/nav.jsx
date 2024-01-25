@@ -5,7 +5,11 @@ const Navigation = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      const scrollOptions = {
+        behavior: "smooth",
+        block: "center",
+      };
+      section.scrollIntoView(scrollOptions);
     }
   };
 

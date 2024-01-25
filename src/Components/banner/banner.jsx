@@ -11,7 +11,7 @@ const Banner = () => {
         <source src={smokeVideo} type="video/mp4" />
       </video>
       <div className="banner-text">
-        <h1>Contacteazane apasand un buton!</h1>
+        <h1>Contacteazane ușor și rapid!</h1>
         <div className="banner-icons">
           <a href="tel:your-phone-number" className="heartbeat">
             <PhoneInTalkIcon sx={{ fontSize: 35 }} />

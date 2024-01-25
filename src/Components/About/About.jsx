@@ -1,8 +1,10 @@
 import React from "react";
+import "./About.scss";
+import Swipper from "../swipper/swipper.jsx";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="container-why-us">
         <h3>De ce să alegi mașina noastră de facut fum?</h3>
         <ul className="container-why-us_ul">
@@ -27,6 +29,8 @@ const About = () => {
           o notă de magie la cel mai frumos dans al vieții tale!
         </p>
       </div>
+
+      <Swipper />
     </section>
   );
 };
