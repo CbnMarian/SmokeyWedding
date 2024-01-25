@@ -3,6 +3,10 @@
 $primary-color: rgb(0, 0, 0);
 $secondary-color: rgb(255, 255, 255);
 
+.container {
+  margin-top: -4.9rem;
+}
+
 .container-bg {
   position: relative;
   background-image: url("../assets/dancing-smoke2.jpg");
@@ -35,7 +39,7 @@ $secondary-color: rgb(255, 255, 255);
 }
 
 .container-text {
-  padding: 3rem 5rem;
+  padding: 10rem 5rem;
 
   h1 {
     font-size: 32px;
@@ -45,6 +49,7 @@ $secondary-color: rgb(255, 255, 255);
   }
 
   p {
+    font-size: 18px;
     text-indent: 3em;
     line-height: 25px;
     color: $secondary-color;
