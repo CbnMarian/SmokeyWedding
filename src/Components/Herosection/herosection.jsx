@@ -1,5 +1,8 @@
 import React from "react";
 import "./herosection.scss";
+
+import Banner from "../banner/banner";
+
 const Hero = () => {
   return (
     <section className="container">
@@ -17,6 +20,7 @@ const Hero = () => {
               invitații cu un moment unic și spectaculos.
             </p>
           </div>
+          <Banner />
         </div>
       </div>
     </section>
