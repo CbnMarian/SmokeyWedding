@@ -25,4 +25,30 @@
   text-align: center;
   color: white;
   z-index: 2;
+
+  .banner-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > * {
+      color: white;
+      margin: 0 10px;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+
+    > *:first-child:hover {
+      color: red;
+    }
+
+    > *:nth-child(2):hover {
+      color: green;
+    }
+
+    > *:last-child:hover {
+      color: blue;
+    }
+  }
 }
