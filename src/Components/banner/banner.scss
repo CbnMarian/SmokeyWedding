@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&display=swap");
+
 .banner {
   position: relative;
   width: 100%;
@@ -18,6 +20,8 @@
 }
 
 .banner-text {
+  font-family: "Merienda", cursive;
+  font-size: 22px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,30 +29,107 @@
   text-align: center;
   color: white;
   z-index: 2;
+}
 
-  .banner-icons {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner-text .banner-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    > * {
-      color: white;
-      margin: 0 10px;
-      transition: color 0.3s;
-      cursor: pointer;
-    }
+.banner-text .banner-icons > * {
+  font-size: 24px;
+  color: white;
+  margin: 0 40px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
 
-    > *:first-child:hover {
-      color: red;
-    }
+.banner-text .banner-icons > *:first-child:hover {
+  color: red;
+}
 
-    > *:nth-child(2):hover {
-      color: green;
-    }
+.banner-text .banner-icons > *:nth-child(2):hover {
+  color: green;
+}
 
-    > *:last-child:hover {
-      color: blue;
-    }
+.banner-text .banner-icons > *:last-child:hover {
+  color: blue;
+}
+
+.flicker-1 {
+  animation: flicker-1 2s linear infinite both;
+}
+.heartbeat {
+  -webkit-animation: heartbeat 2.5s ease-in-out infinite both;
+  animation: heartbeat 2.5s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
