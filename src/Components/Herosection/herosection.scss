@@ -12,7 +12,7 @@ $secondary-color: rgb(255, 255, 255);
   background-image: url("../assets/dancing-smoke2.jpg");
   background-size: cover;
   background-position: center;
-  height: 150vh;
+  height: 100vh;
   margin: 0;
 }
 
@@ -61,5 +61,8 @@ $secondary-color: rgb(255, 255, 255);
 @media (max-width: 768px) {
   .container-text {
     padding: 10rem 2rem 2rem 2rem;
+  }
+  .container-bg {
+    height: 140vh;
   }
 }
