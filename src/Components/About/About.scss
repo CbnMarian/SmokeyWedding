@@ -1,15 +1,22 @@
 .container-why-us {
+  background-color: rgb(238, 238, 238);
+
   h3 {
     color: black;
-
-    font-family: "Montserrat", sans-serif;
+    font-family: "Merienda", cursive;
+    font-size: 28px;
   }
 }
 
-.container-why-us_ul_li {
+.container-why-us_ul_li,
+p {
+  font-size: 18px;
+  line-height: 30px;
   color: black;
   font-family: "Montserrat", sans-serif;
 }
-.container-why-us {
-  padding: 10rem 5rem;
+.container-shadow {
+  padding: 2rem 5rem;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.8),
+    0px -5px 10px rgba(0, 0, 0, 0.7) inset;
 }

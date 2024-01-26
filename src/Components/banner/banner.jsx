@@ -1,5 +1,5 @@
 import "./banner.scss";
-import smokeVideo from "../assets/smoke-wedding.mp4";
+import smokegif from "../assets/smoke-wedding.gif";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
@@ -7,11 +7,11 @@ import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 const Banner = () => {
   return (
     <section id="Contact" className="banner">
-      <video className="background-video" autoPlay loop muted>
-        <source src={smokeVideo} type="video/mp4" />
-      </video>
+      <div className="background-video">
+        <img src={smokegif} alt="video/gif" />
+      </div>
       <div className="banner-text">
-        <h1>Contacteazane ușor și rapid!</h1>
+        <h1>Contacteazane ușor !</h1>
         <div className="banner-icons">
           <a href="tel:your-phone-number" className="heartbeat">
             <PhoneInTalkIcon sx={{ fontSize: 35 }} />
