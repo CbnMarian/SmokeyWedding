@@ -7,7 +7,7 @@ const Navigation = () => {
     if (section) {
       const scrollOptions = {
         behavior: "smooth",
-        block: "center",
+        block: sectionId === "about" ? "start" : "end",
       };
       section.scrollIntoView(scrollOptions);
     }
@@ -19,7 +19,7 @@ const Navigation = () => {
         <li className="nav-item" onClick={() => scrollToSection("about")}>
           About
         </li>
-        <li className="nav-item" onClick={() => scrollToSection("price")}>
+        <li className="nav-item" onClick={() => scrollToSection("Price")}>
           Price
         </li>
         <li className="nav-item" onClick={() => scrollToSection("Contact")}>
