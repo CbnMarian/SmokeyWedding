@@ -1,11 +1,23 @@
-.swiper-button-prev {
-  color: rgb(255, 255, 255);
+// swipper.scss
+
+.container-slider {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  .myswiper {
+    width: 100%;
+    height: 60vh;
+
+    .swiper-slide {
+      /* Corrected class name */
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
 }
 
-.swiper-button-next {
-  color: rgb(255, 255, 255);
-}
-.swiper-button-prev,
-.swiper-button-next {
-  font-size: 32px;
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
 }
