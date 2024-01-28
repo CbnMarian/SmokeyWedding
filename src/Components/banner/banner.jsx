@@ -11,17 +11,29 @@ const Banner = () => {
         <img src={smokegif} alt="video/gif" />
       </div>
       <div className="banner-text">
-        <h1>Contacteazane ușor !</h1>
+        <h1>Contacteaza-ne ușor !</h1>
         <div className="banner-icons">
-          <a href="tel:your-phone-number" className="heartbeat">
+          <a
+            href="tel:your-phone-number"
+            className="heartbeat"
+            target="_blank"
+            rel="noreferrer"
+          >
             <PhoneInTalkIcon sx={{ fontSize: 35 }} />
           </a>
-          <a href="https://wa.me/your-whatsapp-number" className="heartbeat">
+          <a
+            href="https://wa.me/your-whatsapp-number"
+            className="heartbeat"
+            target="_blank"
+            rel="noreferrer"
+          >
             <WhatsAppIcon sx={{ fontSize: 35 }} />
           </a>
           <a
             href="https://www.facebook.com/your-facebook-profile"
             className="heartbeat"
+            target="_blank"
+            rel="noreferrer"
           >
             <FacebookIcon sx={{ fontSize: 35 }} />
           </a>
