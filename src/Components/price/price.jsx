@@ -1,5 +1,6 @@
 import React from "react";
 import "./price.scss";
+import map from "../assets/map.png";
 
 const Price = () => {
   return (
@@ -45,7 +46,10 @@ const Price = () => {
             </ul>
           </div>
         </div>
-        <div className="container-price_map">harta zona</div>
+        <div className="container-price_map">
+          {" "}
+          <img src={map} alt="map" />
+        </div>
       </div>
     </section>
   );
