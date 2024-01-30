@@ -27,3 +27,15 @@
     padding: 0rem 2rem;
   }
 }
+@media (max-width: 768px) {
+  .container-footer {
+    p {
+      white-space: nowrap;
+      font-size: 12px;
+    }
+
+    .container-footer__text {
+      padding: 0rem 2rem;
+    }
+  }
+}

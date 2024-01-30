@@ -12,3 +12,16 @@
   justify-content: center;
   align-items: center;
 }
+.price-ul li {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .container-price-box {
+    padding: 2rem 2rem;
+  }
+  .container-price_map img {
+    width: 300px;
+  }
+}
