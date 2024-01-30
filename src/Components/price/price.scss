@@ -11,10 +11,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 .price-ul li {
   font-family: "Montserrat", sans-serif;
   padding-top: 10px;
+}
+.container-price_text_title {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-size: 32px;
 }
 
 @media (max-width: 768px) {

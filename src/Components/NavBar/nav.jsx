@@ -17,10 +17,10 @@ const Navigation = () => {
     <div className="container-menu">
       <ul className="nav-ul">
         <li className="nav-item" onClick={() => scrollToSection("about")}>
-          About
+          Despre
         </li>
         <li className="nav-item" onClick={() => scrollToSection("Price")}>
-          Price
+          Preț
         </li>
         <li className="nav-item" onClick={() => scrollToSection("Contact")}>
           Contact
