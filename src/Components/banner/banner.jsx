@@ -1,5 +1,5 @@
 import "./banner.scss";
-
+import smoke from "../assets/smoke-wedding.gif";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
@@ -7,7 +7,9 @@ import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 const Banner = () => {
   return (
     <section id="Contact" className="banner">
-      <div className="background-video"></div>
+      <div className="background-video">
+        <img className="smokeGif" src={smoke} alt="gif/logo" />
+      </div>
       <div className="banner-text">
         <h1>Contacteaza-ne ușor !</h1>
         <div className="banner-icons">
