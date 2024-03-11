@@ -14,7 +14,7 @@ const Banner = () => {
         <h1>Contacteaza-ne ușor !</h1>
         <div className="banner-icons">
           <a
-            href="tel:your-phone-number"
+            href="tel:+40746950305"
             className="heartbeat"
             target="_blank"
             rel="noreferrer"
