@@ -22,7 +22,7 @@ const Banner = () => {
             <PhoneInTalkIcon sx={{ fontSize: 35 }} />
           </a>
           <a
-            href="https://wa.me/your-whatsapp-number"
+            href="https://wa.me/+40746950305"
             className="heartbeat"
             target="_blank"
             rel="noreferrer"
@@ -30,7 +30,7 @@ const Banner = () => {
             <WhatsAppIcon sx={{ fontSize: 35 }} />
           </a>
           <a
-            href="https://www.facebook.com/your-facebook-profile"
+            href="hhttps://wa.me/+40746950305"
             className="heartbeat"
             target="_blank"
             rel="noreferrer"
