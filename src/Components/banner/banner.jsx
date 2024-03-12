@@ -30,7 +30,7 @@ const Banner = () => {
             <WhatsAppIcon sx={{ fontSize: 35 }} />
           </a>
           <a
-            href="hhttps://wa.me/+40746950305"
+            href="https://www.facebook.com/profile.php?id=61556624623778"
             className="heartbeat"
             target="_blank"
             rel="noreferrer"
