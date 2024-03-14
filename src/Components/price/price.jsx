@@ -34,34 +34,7 @@ const Price = () => {
                 <br /> - 4 dispozitive de iluminat fumul greu.
                 <br /> - Artificii vulcani 4 buc.
               </li>
-              <li>
-                <span className="span-text">Pachet 4 - 1900 lei</span>
-                <br /> - Fum greu.
-                <br /> - Gheata carbonica pentru paharele de șampaniei la
-                primirea invitatilor.
-                <br /> - Artificii vulcani 4. buc
-                <br /> - Oglinda magica 4 ore.
-              </li>
-              <li>
-                <span className="span-text">Pachet 5 - 2000 lei</span>
-                <br />- Fum greu.
-                <br />
-                - Gheata carbonica pentru paharele de șampaniei la primirea
-                invitatilor.
-                <br /> - Artificii vulcani 4 buc.
-                <br />- 360 video both 4 ore.
-              </li>
-              <li>
-                <span className="span-text">Pachet 6 - 3000 lei</span> <br />-
-                Fum greu.
-                <br />
-                Gheata carbonica pentru paharele de șampaniei la primirea
-                invitatilor.
-                <br /> - Artificii vulcani 4 buc.
-                <br />- 4 dispozitive de iluminat fumul greu.
-                <br />- Oglinda magica 4 ore.
-                <br />- 360 video both 4 ore.
-              </li>
+
               <li>
                 La pachetele 1, 2 și 3 putem adaugă Baloane Explozive pentru
                 prețul de +1000 lei.
