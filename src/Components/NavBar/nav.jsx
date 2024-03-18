@@ -21,7 +21,7 @@ const Navigation = () => {
         </li>
 
         <li className="nav-item" onClick={() => scrollToSection("Contact")}>
-          Contact
+          Contact.
         </li>
       </ul>
     </div>
