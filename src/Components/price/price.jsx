@@ -11,7 +11,7 @@ const Price = () => {
           <div>
             <ul className="price-ul">
               <li>
-                <span className="span-text">Pachet 1 - 700 lei.</span>
+                <span className="span-text">Pachet 1 - 550 lei.</span>
                 <br />
                 - Fum greu.
                 <br /> - Gheata carbonica pentru paharele de șampaniei la
@@ -19,12 +19,20 @@ const Price = () => {
                 <br /> - 4 dispozitive de iluminat fumul greu.
               </li>
               <li>
-                <span className="span-text">Pachet 2 - 800 lei.</span>
+                <span className="span-text">Pachet 2 - 700 lei.</span>
+                <br />
+                - Fum greu.
+                <br /> - Gheata carbonica pentru paharele de șampaniei la
+                primirea invitatilor.
+                <br /> - 4 dispozitive de iluminat fumul greu.
+              </li>
+              <li>
+                <span className="span-text">Pachet 3 - 800 lei.</span>
                 <br />- Fum greu.
                 <br />- Artificii vulcani 4 buc.
               </li>
               <li>
-                <span className="span-text">Pachet 3 - 900 lei.</span>
+                <span className="span-text">Pachet 4 - 900 lei.</span>
                 <br />
                 - Fum greu.
                 <br />- Gheata carbonica pentru paharele de șampaniei la
