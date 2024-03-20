@@ -19,9 +19,12 @@ const Navigation = () => {
         <li className="nav-item" onClick={() => scrollToSection("about")}>
           Despre
         </li>
+        <li className="nav-item" onClick={() => scrollToSection("Price")}>
+          Prețuri
+        </li>
 
         <li className="nav-item" onClick={() => scrollToSection("Contact")}>
-          Contact.
+          Contact
         </li>
       </ul>
     </div>

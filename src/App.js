@@ -4,6 +4,7 @@ import "./Components/Styles/body.css";
 import Navigation from "./Components/NavBar/nav";
 import About from "./Components/About/About";
 import Footer from "./Components/footer/footer";
+import Price from "./Components/price/price";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Hero />
       <About />
+      <Price />
       <Footer />
     </div>
   );
