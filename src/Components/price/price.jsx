@@ -26,11 +26,13 @@ const Price = () => {
                 <br />- Artificii vulcani 4 buc.
               </li>
               <li>
-                <span className="span-text">Pachet 4 - 900 lei.</span>
+                <span className="span-text">Pachet 4 - 1.000 lei.</span>
                 <br />
                 - Fum greu.
+                <br />- Gheata carbonica pentru paharele de șampaniei la
+                primirea invitatilor .
                 <br /> - 4 dispozitive de iluminat fumul greu.
-                <br /> - Artificii vulcani 4 buc.
+                <br /> - Artificii vulcani 4/8 buc.
               </li>
             </ul>
           </div>
