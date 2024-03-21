@@ -12,11 +12,7 @@ const Price = () => {
             <ul className="price-ul">
               <li>
                 <span className="span-text">Pachet 1 - 550 lei.</span>
-                <br />
-                - Fum greu.
-                <br /> - Gheata carbonica pentru paharele de șampaniei la
-                primirea invitatilor.
-                <br /> - 4 dispozitive de iluminat fumul greu.
+                <br />- Fum greu.
               </li>
               <li>
                 <span className="span-text">Pachet 2 - 700 lei.</span>
