@@ -11,7 +11,7 @@ const Price = () => {
           <div>
             <ul className="price-ul">
               <li>
-                <span className="span-text">Pachet 1 - 550 lei.</span>
+                <span className="span-text">Pachet 1 - 500 lei.</span>
                 <br />- Fum greu.
               </li>
               <li>
