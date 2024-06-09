@@ -19,10 +19,6 @@ const Price = () => {
                 <br />
                 - Fum greu.
                 <br /> - 4 dispozitive de iluminat fumul greu.
-              </li>
-              <li>
-                <span className="span-text">Pachet 3 - 800 lei.</span>
-                <br />- Fum greu.
                 <br />- Artificii vulcani 4 buc.
               </li>
               <li>
@@ -30,7 +26,7 @@ const Price = () => {
                 <br />
                 - Fum greu.
                 <br /> - 4 dispozitive de iluminat fumul greu.
-                <br /> - Artificii vulcani 4 buc.
+                <br /> - Artificii vulcani 4-8 buc.
               </li>
             </ul>
           </div>
