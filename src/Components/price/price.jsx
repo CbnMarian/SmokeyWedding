@@ -22,7 +22,7 @@ const Price = () => {
                 <br />- Artificii vulcani 4 buc.
               </li>
               <li>
-                <span className="span-text">Pachet 4 - 900 lei.</span>
+                <span className="span-text">Pachet 3 - 900 lei.</span>
                 <br />
                 - Fum greu.
                 <br /> - 4 dispozitive de iluminat fumul greu.
